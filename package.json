@@ -1,0 +1,24 @@
+{
+  "name": "cypress-open-weather-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "apiTests": "cypress run --spec 'cypress/e2e/apiTests.cy.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjseril/cypress-open-weather-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjseril/cypress-open-weather-api/issues"
+  },
+  "homepage": "https://github.com/tjseril/cypress-open-weather-api#readme",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  }
+}
